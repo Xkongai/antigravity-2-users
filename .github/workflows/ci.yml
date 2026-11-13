@@ -10,8 +10,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: shellcheck
         run: shellcheck -S style install.sh uninstall.sh scripts/*.sh
-  macos-syntax:
-    runs-on: macos-latest
+  syntax:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: bash -n and --help
