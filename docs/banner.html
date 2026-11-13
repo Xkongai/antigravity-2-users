@@ -1,0 +1,79 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<!-- Social preview banner for antigravity-2-users. Render at 1280x640 (and 2x). No Google brand assets used; all shapes are hand-drawn CSS. -->
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1280px;height:640px;overflow:hidden}
+body{font-family:"Space Grotesk","Inter","Noto Sans CJK SC",sans-serif;color:#eef1ff;
+background:
+ radial-gradient(700px 420px at 92% 18%,rgba(99,102,241,.45),transparent 70%),
+ radial-gradient(620px 420px at 70% 105%,rgba(20,184,166,.35),transparent 70%),
+ radial-gradient(520px 380px at -5% 110%,rgba(236,72,153,.28),transparent 70%),
+ linear-gradient(135deg,#0b0d1f 0%,#111433 55%,#0a1424 100%);position:relative}
+body:before{content:"";position:absolute;inset:0;
+background-image:radial-gradient(rgba(255,255,255,.07) 1px,transparent 1px);background-size:22px 22px;
+mask-image:linear-gradient(90deg,transparent,#000 35%,#000)}
+.left{position:absolute;left:64px;top:104px;width:640px}
+.pill{display:inline-flex;gap:10px;font:600 13px "JetBrains Mono",monospace;letter-spacing:.12em;color:#c7d2fe;
+border:1px solid rgba(165,180,252,.35);background:rgba(99,102,241,.12);padding:7px 14px;border-radius:999px}
+h1{margin-top:26px;font-weight:700;font-size:62px;line-height:1;white-space:nowrap;letter-spacing:-.035em}
+h1 .two{background:linear-gradient(90deg,#818cf8,#2dd4bf);-webkit-background-clip:text;color:transparent}
+h1 .dim{color:#9aa3d6;font-weight:500}
+.hook{margin-top:26px;font-size:30px;font-weight:600;line-height:1.25;letter-spacing:-.01em}
+.hook b{color:#5eead4;font-weight:700}
+.zh{margin-top:12px;font-family:"Noto Sans CJK SC",sans-serif;font-size:23px;font-weight:500;color:#c3c9ee}
+.badges{margin-top:30px;display:flex;gap:12px}
+.b{font:600 15px "Inter",sans-serif;padding:8px 14px;border-radius:10px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14)}
+.b i{font-style:normal;color:#9aa3d6;margin-right:6px}
+.cmd{margin-top:22px;display:inline-block;font:500 18px "JetBrains Mono",monospace;padding:13px 20px;border-radius:12px;
+background:rgba(5,7,20,.7);border:1px solid rgba(255,255,255,.12)}
+.cmd span{color:#2dd4bf}
+.foot{position:absolute;left:64px;bottom:30px;font:500 13px "JetBrains Mono",monospace;color:#7f88bd;letter-spacing:.04em}
+/* windows */
+.win{position:absolute;width:390px;height:300px;border-radius:16px;overflow:hidden;
+box-shadow:0 30px 60px rgba(0,0,0,.55),0 0 0 1px rgba(255,255,255,.1)}
+.w1{left:700px;top:118px;transform:rotate(-4deg);background:#151a3d}
+.w2{left:850px;top:232px;transform:rotate(3deg);background:#0f2a2e}
+.bar{height:34px;display:flex;align-items:center;gap:7px;padding:0 14px;background:rgba(255,255,255,.06)}
+.dot{width:11px;height:11px;border-radius:50%}
+.r{background:#ff5f57}.y{background:#febc2e}.g{background:#28c840}
+.title{margin-left:12px;font:600 12px "Inter",sans-serif;color:#aab2e0}
+.body{display:flex;height:266px}
+.side{width:64px;padding:14px 0;display:flex;flex-direction:column;align-items:center;gap:14px;background:rgba(0,0,0,.18)}
+.side div{width:22px;height:22px;border-radius:6px;background:rgba(255,255,255,.12)}
+.main{flex:1;padding:18px 18px}
+.acct{display:flex;align-items:center;gap:10px;margin-bottom:16px}
+.av{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font:700 15px "Space Grotesk";color:#0b0d1f}
+.w1 .av{background:linear-gradient(135deg,#a5b4fc,#6366f1)}
+.w2 .av{background:linear-gradient(135deg,#99f6e4,#14b8a6)}
+.nm{font:600 14px "Inter"}.sub{font:500 11px "JetBrains Mono";color:#8f98c9}
+.ln{height:9px;border-radius:5px;margin:9px 0;background:rgba(255,255,255,.13)}
+.w1 .ln.k{background:rgba(129,140,248,.7)} .w2 .ln.k{background:rgba(45,212,191,.7)}
+.chip{position:absolute;right:16px;bottom:16px;font:600 11px "JetBrains Mono";padding:5px 9px;border-radius:7px}
+.w1 .chip{background:rgba(99,102,241,.25);color:#c7d2fe}
+.w2 .chip{background:rgba(20,184,166,.22);color:#99f6e4}
+.link{position:absolute;left:1000px;top:178px;width:120px;height:120px;border:2px dashed rgba(255,255,255,.18);border-radius:50%;display:none}
+.iso{position:absolute;left:735px;top:452px;font:600 12px "JetBrains Mono";color:#c7d2fe;background:rgba(10,12,30,.85);
+border:1px solid rgba(165,180,252,.35);padding:6px 10px;border-radius:8px;transform:rotate(3deg)}
+</style></head><body>
+<div class="left">
+  <div class="pill">MACOS · TWO PROFILES · ONE MAC</div>
+  <h1>antigravity<span class="dim">-</span><span class="two">2</span><span class="dim">-</span>users</h1>
+  <div class="hook">Run <b>two Antigravity profiles</b><br>side by side on macOS.</div>
+  <div class="zh">两个账号，同时在线，登录态互不干扰。</div>
+  <div class="badges"><div class="b">MIT</div><div class="b">macOS</div><div class="b">bash · zero deps</div></div>
+  <div class="cmd"><span>$</span> ./install.sh</div>
+</div>
+<div class="win w1"><div class="bar"><div class="dot r"></div><div class="dot y"></div><div class="dot g"></div><div class="title">Profile A — Work</div></div>
+ <div class="body"><div class="side"><div></div><div></div><div></div><div></div></div>
+ <div class="main"><div class="acct"><div class="av">A</div><div><div class="nm">work@…</div><div class="sub">~/Library/…/default</div></div></div>
+ <div class="ln k" style="width:62%"></div><div class="ln" style="width:88%"></div><div class="ln" style="width:74%"></div><div class="ln k" style="width:40%"></div><div class="ln" style="width:81%"></div><div class="ln" style="width:56%"></div></div></div>
+ <div class="chip">● signed in</div></div>
+<div class="win w2"><div class="bar"><div class="dot r"></div><div class="dot y"></div><div class="dot g"></div><div class="title">Profile B — Personal</div></div>
+ <div class="body"><div class="side"><div></div><div></div><div></div><div></div></div>
+ <div class="main"><div class="acct"><div class="av">B</div><div><div class="nm">me@…</div><div class="sub">~/.ag-profile-b</div></div></div>
+ <div class="ln k" style="width:48%"></div><div class="ln" style="width:84%"></div><div class="ln k" style="width:66%"></div><div class="ln" style="width:72%"></div><div class="ln" style="width:90%"></div><div class="ln" style="width:52%"></div></div></div>
+ <div class="chip">● signed in</div></div>
+<div class="iso">isolated HOME + keychain</div>
+<div class="foot">Unofficial · not affiliated with Google · Antigravity is a trademark of Google LLC</div>
+</body></html>
